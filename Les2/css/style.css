@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(#60d6d8,#4275a1);
+    height: 1330px;
+    width: auto;
+}
+.unit1 {
+    background-color: aliceblue; 
+    box-shadow: 0px 2px 6px #2a5072ba;
+    width: 700px; 
+    height: 1200px;
+    margin: 50px auto;
+    border-radius: 40px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin: 50px 250px auto 480px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 8px #576d76b7;
+}
+.img2 {
+    width: 312px;
+    height: 445px; 
+    margin: 10px auto auto 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #769baab7;
+}
+.img3 {
+    width: 320px;
+    height: 356px; 
+    margin: 70px auto auto 20px;
+    border-radius: 20px;  
+    box-shadow: 1px 1px 5px #769baab7;
+}
+h1 {
+    font-size: 29px;
+    font-family: "fathin";
+    color: #376287 ;
+    letter-spacing: 2px;
+    margin: -185px auto auto 20px;
+    text-shadow: 0px 1px 3px #2c557991;   
+}
+h2 {
+    font-size: 25px;
+    font-family: "fathin";
+    color: #4376a3 ;
+    letter-spacing: 2px;
+    margin: 30px auto auto 20px;
+    text-shadow: 0px 1px 3px #2c557991;   
+}
+h3 {
+    font-size: 20px;
+    font-family: "fathin";
+    color: #4376a3 ;
+    letter-spacing: 2px;
+    text-align: center; 
+    text-shadow: 0px 1px 3px #2c557991;   
+}
+p {
+    font-family: "fathin";
+    color: #4376a3 ;
+    letter-spacing: 2px;
+    margin: 10px auto 0px 20px;
+    text-shadow: 0px 1px 3px #2c557991;   
+    text-align: left;  
+}
+.info {
+    font-size: 15px;
+    font-family: "fathin";
+    color: #4a83b5 ;
+    letter-spacing: 2px;
+    text-align: right; 
+    margin: 55px 40px 0px auto;  
+}
+.services {
+    width: auto;
+    font-size: 18px;
+    font-family: "fathin";
+    color: #ff7cc8 ;
+    letter-spacing: 3px;
+    margin: -30px auto auto 20px; 
+    text-align: left; 
+}
+.services2 {
+    width: auto;
+    font-size: 18px;
+    font-family: "fathin";
+    color: #ff7cc8 ;
+    letter-spacing: 3px;
+    margin: -120px 0px 0px 370px; 
+    text-align: left; 
+}
+.footer {
+    text-align: center; 
+    padding-top: 40px; ;
+}
+.p2 {
+    font-family: "fathin";
+    font-size: 18px;
+    color:#ff7cc8;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+    margin: auto 20px auto auto;
+    text-align:center; 
+}
+@font-face {
+    font-family: "fathin";
+    src: url(../fonts/fa-thin-100.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal;    
+}
+
+    
