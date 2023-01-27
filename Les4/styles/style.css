@@ -1,0 +1,208 @@
+body{
+    width: 100vw;
+    height: 2800px;
+    background: linear-gradient(#00070f, 80%, #520307);
+}
+header{
+    width: 100vw;
+    height: 368px;
+}
+.headlogo_1{
+    width: 100px;
+    height: 46px;
+    position: relative; 
+    top: -390px;
+    right: -80px;
+}
+.headlogo_2{
+    position: relative;
+    top: -303px;
+    right: -95px;
+}
+.headerpic {
+width: 2122px;
+height: 385px;
+position: relative;
+left: 180px;
+top: -20px;
+}
+.ul_navigation li{
+    width: 90px;
+    margin: 50px; padding: 0;
+    display: inline-block;
+    padding: 3px;
+    font-size: 27px;
+    letter-spacing: 3px;
+    font-family: boopee;
+    top: -80px;
+}
+.ul_navigation{
+list-style-type: none;
+color:aliceblue;
+text-align: center;
+border-bottom: 0.1px solid rgb(219, 219, 219);
+}
+.section_game{
+    font-family: boopee;
+    color:aliceblue; 
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+.section_game h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section_game p {
+    font-size: 20px;
+    width: 490px;
+    text-align: left;
+    margin-left: 1013px;   
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.style_div {
+ width: 475px;
+ height: 900px;
+ margin-left: auto;
+ margin-right: auto;
+ position: relative;
+}
+.section_story {
+    font-family: boopee;
+    color:rgb(255, 255, 255); 
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+.section_story h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section_story p {
+    font-size: 20px;
+    width: 490px;
+    text-align: left;  
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.section_story li{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: boopee;
+    text-align: left;  
+}
+.similar_games {
+    position: relative; 
+    top: -1500px;
+    right: 800px;
+}
+.similar_games h2 {
+    font-family: boopee;
+    color:rgb(255, 255, 255); 
+    text-align: center;
+    margin-right: 165px;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    
+}
+.similar_games_a {
+    text-decoration: none;
+    font-family: boopee;
+    color:rgb(255, 148, 149); 
+    text-align: center;
+    margin-right: 165px;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+.similar_games h3 {
+    font-family: boopee;
+    color:rgb(255, 148, 149); 
+    text-align: center;
+    margin-right: 165px;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+.games_img {
+    width: 308px;
+    height: 170px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+
+.game_info {
+    position: relative; 
+    top: -2800px;
+    left: 900px;
+} 
+.game_info_a {
+    text-decoration: none;
+    font-family: boopee;
+    color:rgb(255, 148, 149); 
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+.game_info_img {
+    width: 308px;
+    height: 170px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+.game_info h2 {
+    font-family: boopee;
+    color:rgb(255, 255, 255); 
+    text-align: center;
+    margin-right: 165px;
+    letter-spacing: 3px;
+    margin-top: 50px;  
+}
+.game_info h3 {
+    text-decoration: none;
+    font-family: boopee;
+    color:rgb(255, 255, 255); 
+    text-align: center;
+    margin-right: 165px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+.game_info li{
+    list-style-type: none;
+    font-family: boopee;
+    color:rgb(154, 196, 255); 
+    text-align: left;
+    margin-right: 165px;
+    letter-spacing: 3px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.footer_a {
+    position: absolute;
+    text-decoration: none;
+    font-family: boopee;
+    color:rgb(255, 255, 255); 
+    letter-spacing: 3px;
+    font-size: 50px;
+    padding-left: 1200px;
+    padding-top: -200px;
+}
+.footer_image {
+    padding-left: 250px;
+    margin-top: -200px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.footer_a:hover {
+    color: rgb(255, 148, 149);
+  }
+@font-face {
+    font-family:"boopee";
+    src: url(../assets/fonts/Boopee\ Regular.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal;    
+}
