@@ -7,6 +7,12 @@ body{
     background: linear-gradient(#00070f, 80%, #520307);
     margin: 0;
 }
+.signup_page_body{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#00070f, 80%, #00042dd6);
+    margin: 0;
+}
 .login_page_body{
     width: 100%;
     height: auto;
@@ -83,9 +89,25 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+.signup_form_wrapper{
+    width: 900px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .login_form_div {
     width: 500px;
     height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00070f ;
+    border-radius: 20px;
+}
+.signup_form_div {
+    width: 900px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     background-color: #00070f ;
@@ -95,6 +117,20 @@ nav a:hover {
     padding-top: 20px;
     width: 500px;
     margin: auto;
+}
+.signup_form {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    width: 900px;
+    height: 1000px;
+    margin: auto;
+    text-align: left;
+}
+.form_part{
+    width: 850px;
+    height: 80px;
 }
 .login_form_div p {
     margin-top: 15px;
@@ -128,11 +164,34 @@ nav a:hover {
     font-size: 25px;
     letter-spacing: 3px;
 }
+.signup_form input {
+    width: 500px;
+    height: 70px;
+    float:right;
+    background-color: #00070f;
+    border-radius: 0.5px;
+    border-color: #ffffff;
+    border-radius: 6px;
+    font-family: boopee;
+    color: #a6cbff; 
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
 .login_form label{
     font-family: boopee;
     font-size: 25px;
     color: #ffffff; 
     text-align: center;
+    letter-spacing: 3px;
+}
+.signup_form label{
+    margin-top: 25px;
+    float: left;
+    font-family: boopee;
+    font-size: 25px;
+    color: #ffffff; 
+    text-align: left;
     letter-spacing: 3px;
 }
 .submit_button{

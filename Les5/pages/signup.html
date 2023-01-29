@@ -8,7 +8,7 @@
     <title>SallyFace Sign up</title>
     <link rel="shortcut icon" type="image/png" href="../assets/images/icon.png"/>
 </head>
-<body>
+<body class="signup_page_body">
     <header>
         <div class="headlogo">
             <img class="headlogo_2" src="../assets/images/Sally face_site logo.png" alt="logo">
@@ -30,5 +30,43 @@
             </ul>
         </a>
     </nav>
+
+
+    <main class="login_main">
+        <div class="signup_form_wrapper">
+            <h1 class="login_h1">Registration</h1>
+            <div class="signup_form_div">
+                <form class="signup_form" action="../action_page.php" method="post">
+                    <div class="form_part">
+                        <label for="signup_nickname">Nickname:</label>
+                        <input type="text" id="signup_nickname" name="signup_nickname" required>
+                    </div>
+                    <div class="form_part">
+                        <label for="signup_email">Your email:</label>
+                        <input type="email" id="signup_email" name="signup_email" required>
+                    </div>
+                    <div class="form_part">
+                        <label for="signup_password">Password:</label>
+                        <input type="password" id="signup_password" name="signup_password" required>
+                    </div>
+                    <div class="form_part">
+                        <label for="signup_password_again">Password again:</label>
+                        <input type="password" id="signup_password_again" name="signup_password_again" required>
+                    </div>
+                    <button class="submit_button" type="submit" >Login</button> 
+                </form>  
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <img class="footer_image" src="../assets/images/footer_pic.png" alt="footer picture">
+        <div class="footer_go_up">
+            <a class="footer_a" href="#top">UP↑</a>
+        </div>
+    </footer>
+
+
 </body>
 </html>
