@@ -47,6 +47,14 @@ color:aliceblue;
 text-align: center;
 border-bottom: 0.1px solid rgb(219, 219, 219);
 }
+.navigation {
+    color:aliceblue;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav a:hover {
+    color:rgb(154, 196, 255); 
+}
 .section_game{
     font-family: boopee;
     color:aliceblue; 
@@ -105,7 +113,7 @@ border-bottom: 0.1px solid rgb(219, 219, 219);
     letter-spacing: 3px;
     margin-top: 50px;
 }
-a:hover {
+aside a:hover {
     color: rgb(255, 255, 255);
   }
   
@@ -169,7 +177,7 @@ a:hover {
 .game_info li{
     list-style-type: none;
     font-family: boopee;
-    color:rgb(154, 196, 255); 
+    color:rgb(117, 175, 255); 
     text-align: left;
     letter-spacing: 3px;
     margin-top: 5px;
