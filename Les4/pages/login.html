@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>SallyFace Log in</title>
+    <link rel="shortcut icon" type="image/png" href="../assets/images/icon.png"/>
 </head>
-<body>
-    
+<body class="login_page_body">
+    <header>
+        <div class="headlogo">
+            <img class="headlogo_2" src="../assets/images/Sally face_site logo.png" alt="logo">
+        </div>
+        <img class="headerpic" src="../assets/images/header_pic.png" alt="header picture">
+    </header>
+
+
+    <nav> <!-- поки що без лінків -->
+        <a name="top">
+            <ul class="ul_navigation">
+                <li><a class="navigation" href="home.html">Home</a></li>
+                <li>Developer</li>
+                <li>Characters</li>
+                <li>Episodes</li>
+                <li>Items</li>
+                <li>Lore</li>
+                <li><a class="navigation" href="login.html">Fandom </a></li>
+            </ul>
+        </a>
+    </nav>
+     
+    <main class="login_main">
+            <div class="login_form_wrapper">
+                <h1 class="login_h1">You must be logged in before accessing the fandom page</h1>
+                <div class="login_form_div">
+                    <form class="login_form" action="../action_page.php" method="post">
+                        <label for="login_email">Your email:</label>
+                        <input type="email" id="login_email" name="login_email" required>
+                        <label for="login_password">Password:</label>
+                        <input type="password" id="login_password" name="login_password" required>
+                        <button class="submit_button" type="submit" >Login</button> 
+                    </form>  
+                    <p>Forgot your password?</p>
+                </div>
+                <h3 class="login_form_div_h3">Don't have an account?</h3>
+                <a class="signup_link" href="signup.html">SIGN UP</a>
+            </div>
+    </main>
+    <footer>
+        <img class="footer_image" src="../assets/images/footer_pic.png" alt="footer picture">
+        <div class="footer_go_up">
+            <a class="footer_a" href="#top">UP↑</a>
+        </div>
+    </footer>
 </body>
 </html>
