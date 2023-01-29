@@ -121,16 +121,56 @@ nav a:hover {
 .signup_form {
     padding-top: 20px; 
     padding-bottom: 20px; 
-    padding-left: 20px; 
-    padding-right: 20px; 
     width: 900px;
-    height: 1000px;
+    height: auto;
     margin: auto;
     text-align: left;
 }
 .form_part{
     width: 850px;
     height: 80px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.form_part_select{
+    width: 850px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.form_part_radio{
+    width: 200px;
+    height: 70px;
+    display: inline-block;
+    float: right;
+    margin-right: 35px;
+}
+.form_part_age{
+    width: 850px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.form_part_radio input[type=radio]{
+    display: none;
+}
+.form_part_age input[type=number] {
+    width: 150px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.form_part_radio label{
+	cursor: pointer;
+	padding: 0px 15px;
+	border: 1px solid #f7f7f7;
+	border-radius: 6px;
+	user-select: none;
 }
 .login_form_div p {
     margin-top: 15px;
@@ -165,8 +205,8 @@ nav a:hover {
     letter-spacing: 3px;
 }
 .signup_form input {
-    width: 500px;
-    height: 70px;
+    width: 350px;
+    height: 60px;
     float:right;
     background-color: #00070f;
     border-radius: 0.5px;
@@ -186,13 +226,30 @@ nav a:hover {
     letter-spacing: 3px;
 }
 .signup_form label{
-    margin-top: 25px;
+    margin-top: 30px;
     float: left;
     font-family: boopee;
     font-size: 25px;
     color: #ffffff; 
     text-align: left;
     letter-spacing: 3px;
+}
+.about_yourself {
+    text-align: center;
+}
+.about_yourself textarea{
+    width: 700px;
+    height: 150px;
+    resize: none;
+    font-size: 25px;
+    font-family: boopee;
+    background-color: #00070f;
+    color: #7acfec;
+}
+.about_yourself textarea::placeholder {
+    font-size: 25px;
+    color: #7acfec82;
+    font-family: boopee;
 }
 .submit_button{
     width: 150px;
@@ -211,6 +268,12 @@ nav a:hover {
     font-size: 35px;
     background-color: #7ad0ec;
 }
+.form_part_radio label:hover {
+	color: #ffffff;
+}
+.form_part_radio input[type=radio]:checked + label {
+	background: #2970c1;
+}
 .signup_link{
     text-decoration: none;
     font-family: boopee;
@@ -220,6 +283,41 @@ nav a:hover {
 }
 .signup_link:hover{
     color:#8cf5ff; 
+}
+select {
+    width: auto;
+    height: auto;
+    font-family: boopee;
+    font-size: 25px;
+    letter-spacing: inherit;
+    background-color: #00070f;
+    color: #47b2ff;
+    border: none;
+}
+.form_part_select_lable{
+    font-family: boopee;
+    font-size: 25px;
+    color:  #47b2ff;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 29px;
+}
+.signup_button{
+    width: 150px;
+    height: 60px; 
+    margin-top: 15px;
+    background-color: #47b2ff;
+    border-radius: 6px;
+    font-family: boopee;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.signup_button:hover {
+    font-size: 35px;
+    background-color: #7ad0ec;
 }
 .section_game{
     font-family: boopee;
@@ -281,7 +379,12 @@ nav a:hover {
 }
 aside a:hover {
     color: rgb(255, 255, 255);
-  }
+}
+.signup_end {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
   
 .similar_games h3 {
     font-family: boopee;
