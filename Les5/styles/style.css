@@ -272,7 +272,7 @@ input[type="number"]::-webkit-inner-spin-button {
 	color: #ffffff;
 }
 .form_part_radio input[type=radio]:checked + label {
-	background: #2970c1;
+	background: #7acfec;
 }
 .signup_link{
     text-decoration: none;
