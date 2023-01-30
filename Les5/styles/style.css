@@ -302,6 +302,29 @@ select {
     letter-spacing: 3px;
     margin-top: 29px;
 }
+.signup_end {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.signup_checkbox {
+    z-index: -1;
+    opacity: 0;
+}
+.signup_checkbox_part{
+    width: 850px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.signup_checkbox_part input[type=checkbox]{
+    width: 30px;
+	height: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    float: left;
+}
+
 .signup_button{
     width: 150px;
     height: 60px; 
@@ -379,11 +402,6 @@ select {
 }
 aside a:hover {
     color: rgb(255, 255, 255);
-}
-.signup_end {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
 }
   
 .similar_games h3 {
