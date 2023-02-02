@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+main {
+    width: 100%;
+    height: auto;
+}
+.shopping-list-wrapper {
+    width: 793px;
+    height: 507px;
+    background-color: #3B3F45;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.header {
+    height: 82px;
+    background-color: #4A4F56;
+}
+.header h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FF8984;
+    padding-top: 19px;
+    padding-bottom: 4px;
+}
+.header p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FF8984;
+}
+.shopping-list {
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+.check-list-block {
+    width: 534px;
+    height: 45px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #88839E;
+    
+}
+.check-list-block label{
+    font-weight: 400;
+    font-size: 18px;
+    display: block;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    color: #FFFFFF;
+
+}
+.check-list-block input{
+    margin: 0 auto;
+    width: 21px;
+    height: 21px;
+    background-color: #FFFFFF;
+}
