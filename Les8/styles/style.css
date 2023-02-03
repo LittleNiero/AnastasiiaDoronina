@@ -60,10 +60,6 @@ main {
 }
 
 .check-list-block:hover {
-    width: 534px;
-    height: 45px;
-    margin: 0 auto;
-    text-align: left;
     background-color: #625E77;
     border-top: 3px solid #FFFFFF;
     border-bottom: 3px solid #FFFFFF;
@@ -71,10 +67,6 @@ main {
 }
 
 .check-list-block:nth-child(2n):hover {
-    width: 534px;
-    height: 45px;
-    margin: 0 auto;
-    text-align: left;
     background-color: #625E77;
     border-top: 3px solid #FFFFFF;
     border-bottom: 3px solid #FFFFFF;
