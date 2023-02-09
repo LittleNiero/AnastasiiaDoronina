@@ -101,6 +101,31 @@ color: #3C3C3C;
     background-color: #F6F6F6;
     justify-content: center;
 }
+.section-team__item {
+    position: relative;
+}
+.section-team__hover {
+    display: flex;
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+    background-color: #18B5DC;
+    cursor: pointer;
+    top: 0;
+}
+.section-team__item__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282528;
+}
+.section-team__item__job-title {
+    font-size: 18px;
+    line-height: 22px;
+    color: #646464;
+}
 
 .footer__menu {
     text-align: center;
