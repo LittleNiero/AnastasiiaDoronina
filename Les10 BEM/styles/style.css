@@ -2,16 +2,18 @@ body {
     font-family: 'Lato', sans-serif;
     font-style: normal;
 }
+
+
 .header--border-bottom {
     border-bottom: 1px solid #BDBDBD;
 }
 .header__menu {
-   display: flex;
    color: #FFFFFF;
    width: 70%;
    height: 80px;
 }
 .menu {
+    display: flex;
     align-items: center;
     margin: 0 auto ;
 }
@@ -59,6 +61,8 @@ button {
     color: #FFFFFF;
     background-color: #18B5DC;
 }
+
+
 .main-section {
     text-align: center;
     background-color: #F6F6F6;
@@ -96,10 +100,13 @@ color: #3C3C3C;
     margin: 0 auto;
     padding-bottom: 60px;
 }
+
+
 .section-team {
     display: flex;
     background-color: #F6F6F6;
     justify-content: center;
+    padding-bottom: 150px;
 }
 .section-team__item {
     position: relative;
@@ -111,9 +118,26 @@ color: #3C3C3C;
     height: 270px;
     justify-content: center;
     align-items: center;
-    background-color: #18B5DC;
     cursor: pointer;
     top: 0;
+    opacity: 0;
+}
+.section-team__hover:hover {
+    opacity: 100;
+    transition: all .1s ease-in;
+}
+.wrapper--bg-color {
+    background-color: #18B5DC;
+}
+
+
+.socials-list-hover {
+    position: absolute;
+    opacity: 0;
+}
+.socials-list-hover:hover {
+    position: absolute;
+    opacity: 100;
 }
 .section-team__item__name {
     font-weight: 700;
@@ -127,6 +151,27 @@ color: #3C3C3C;
     color: #646464;
 }
 
+
 .footer__menu {
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px auto;
+}
+.footer__navigation {
+    position: relative;
+}
+.footer__socials-list {
+    display: flex;
+    gap: 10px;
+}
+.footer__socials-list-hover {
+    position: absolute;
+}
+.social-hover {
+    cursor: pointer;
+    opacity: 0;
+}
+.social-hover:hover {
+    opacity: 100%;
 }
