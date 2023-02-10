@@ -111,6 +111,9 @@ color: #3C3C3C;
 .section-team__item {
     position: relative;
 }
+.section-team__default {
+    margin-bottom: 20px;
+}
 .section-team__hover {
     display: flex;
     position: absolute;
