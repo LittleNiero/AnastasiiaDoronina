@@ -1,3 +1,7 @@
+@import url(../assets/fonts/Montserrat/Montserrat.css);
+@import url(../assets/fonts/GothamBold/GothamBold.css);
+@import url(../assets/fonts/Poppins/Poppins.css);
+
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -167,7 +171,7 @@ h1 {
     background: #FF9900;
     border-radius: 4px;
     border: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -221,7 +225,7 @@ h1 {
     display: inline-block;
 }
 .footer__heading {
-    font-family: "Gotham"; 
+    font-family: 'Gotham', sans-serif; 
     font-style: normal;
     display: inline;
     font-weight: 700;
@@ -257,9 +261,5 @@ h1 {
 .footer-form__input:focus-visible {
     border-color: #5d7a99;
 }
-@font-face {
-    font-family: "Gotham"; 
-    src: url("../assets/fonts/GothamBold.ttf");
-} 
 
 
