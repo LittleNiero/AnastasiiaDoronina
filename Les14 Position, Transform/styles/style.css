@@ -93,8 +93,19 @@ body {
 }
 
 
-.who-s-using__wrapper {
+
+.who-s-using__cards {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 15px;
+    border-top: 1px solid #BFBFBF;
+    border-bottom: 1px solid #BFBFBF;
+}
+.who-s-using__wrapper {
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
 }
@@ -108,6 +119,47 @@ body {
     margin: auto 20px auto 0;
     vertical-align: middle;
 }
+.flip-card {
+    align-content: center;
+    width: 270px;
+    height: 180px;
+    border-radius: 8px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateX(180deg);
+    cursor: pointer;
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+.flip-card-front {
+    background-color: #E6E6E6;
+}
+.flip-card-back {
+    background-color: #1A1A1A ;
+    transform: rotateX(180deg);
+}
+.flip-card-img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
 .wrapper-left {
     justify-content: left;
 }
