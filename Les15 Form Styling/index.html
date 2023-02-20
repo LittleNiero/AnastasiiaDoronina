@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="form-wrap">
+        <form class="form">
+
+            <h2 class="form__heading">Create an Account</h2>
+
+            <section class="form__section">
+                <div class="form__item flex-column">
+                    <label for="fname">First name</label>
+                    <input class="input-text" type="text" id="fname" name="fname" autocomplete="off">
+                </div>
+
+                <div class="form__item flex-column">
+                    <label for="lname">Last Name</label>
+                    <input class="input-text" type="text" id="lname" name="lname" autocomplete="off">
+                </div>
+            </section>    
+
+            <section class="form__section">
+                <div class="form__item flex-column">
+                    <label for="email">E-mail</label>
+                    <input autocomplete="off"class="input-text input-text__email" type="email" id="email" name="email">
+                    <h4 class="form__prompt">We'll never share your email with anyone else.</h4>
+                </div>  
+            </section>
+
+            <section class="form__section">
+                    
+                    <div class="form__item form__item-radio">
+                        <input class="input-hidden" type="radio" id="male" name="sex" value="male">
+                        <span class="input-radio"></span>
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="form__item form__item-radio">
+                        <input class="input-hidden" type="radio" id="female" name="sex" value="female">
+                        <span class="input-radio"></span> 
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="form__item form__item-radio">
+                        <input class="input-hidden" type="radio" id="other" name="sex" value="other">
+                        <span class="input-radio"></span>
+                        <label for="other">Other</label>
+                    </div>
+                
+            </section>
+            
+            <section class="form__section">
+
+                <div class="form__item flex-column">
+                    <label for="country">Country</label>
+
+                    <select class="input-select" name="country" id="country">
+                        <option class="input-select__option" disabled selected>Select</option>
+                        <option class="input-select__option" val ue="ukraine">Ukraine</option>
+                        <option class="input-select__option" value="сhina">China</option>
+                        <option class="input-select__option" value="greece">Greece</option>
+                        <option class="input-select__option" value="lithuania">Lithuania</option>
+                        <option class="input-select__option" value="moldova">Moldova</option>
+                        <option class="input-select__option" value="sweden">Sweden</option>
+                    </select>
+                    
+                </div>
+
+                <div class="form__item flex-column">
+                    <label for="city">City</label>
+                    <input autocomplete="off" class="input-text" type="text" id="city" name="city">
+                </div>
+
+            </section>
+            <button type="submit">Sign Up</button>
+            
+            <h4 class="form__prompt">By clicking the 'Sign Up' button, you confirm that you accept our 
+                <span><a href="#">Terms of Use</a></span> and <span><a href="#">Privacy Policy</a></span></h4>
+        </form>
+
+        <div class="form__footer flex-row">
+            <h3>Have an account?</h3>
+            <a href="#">Log In</a>
+        </div>
+    </div>
+
+</body>
+</html>
