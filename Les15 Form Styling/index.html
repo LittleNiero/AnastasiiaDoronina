@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="form-wrap">
-        <form class="form">
+        <form action="form.php" class="form">
 
             <h2 class="form__heading">Create an Account</h2>
 
@@ -77,16 +77,21 @@
                 </div>
 
             </section>
-            <button type="submit">Sign Up</button>
-            
-            <h4 class="form__prompt">By clicking the 'Sign Up' button, you confirm that you accept our 
-                <span><a href="#">Terms of Use</a></span> and <span><a href="#">Privacy Policy</a></span></h4>
-        </form>
 
-        <div class="form__footer flex-row">
-            <h3>Have an account?</h3>
-            <a href="#">Log In</a>
-        </div>
+            <button class="form__submit" type="submit">Sign Up</button>
+            
+            <div class="form__item">
+                <h4 class="form__prompt text-center">By clicking the 'Sign Up' button, you confirm that you accept our 
+                    <span><a class="form__prompt__link" href="#">Terms of Use</a></span> and <span><a class="form__prompt__link" href="#">Privacy Policy</a></span></h4>
+            </div>
+        
+            <div class="line"></div>
+
+            <div class="form__item form__footer">
+                    <h3 class="form__footer__heading">Have an account?</h3>
+                    <a class="form__footer__link" href="#">Log In</a>
+            </div>
+        </form>
     </div>
 
 </body>
