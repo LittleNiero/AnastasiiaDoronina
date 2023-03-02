@@ -19,7 +19,7 @@ input[type=number]:focus {
 }
 body {
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -66,7 +66,7 @@ body {
   position: absolute;
   width: 30px;
   height: 3px;
-  background-color: #173A56;
+  background-color: #173a56;
   left: 5px;
   -webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
   transition: opacity 0.4s, -webkit-transform 0.4s;
@@ -88,15 +88,15 @@ body {
   gap: 32px;
 }
 .header-buttons__signin {
-  color: #2F281E;
+  color: #2f281e;
   width: 110px;
-  border: 1px solid #BCD0E5;
-  background: #FFFFFF;
+  border: 1px solid #bcd0e5;
+  background: #ffffff;
 }
 .header-buttons__signup {
   width: 110px;
-  color: #FFFFFF;
-  background: #FF9900;
+  color: #ffffff;
+  background: #ff9900;
 }
 
 .navigation {
@@ -112,12 +112,12 @@ body {
   line-height: 28px;
   font-weight: 400;
   font-size: 16px;
-  color: #2F281E;
+  color: #2f281e;
   display: inline-block;
   text-decoration: none;
 }
 .navigation-list__item:hover {
-  color: #FF9900;
+  color: #ff9900;
 }
 
 .first-screen {
@@ -134,7 +134,7 @@ body {
   font-weight: 700;
   font-size: 44px;
   line-height: 54px;
-  color: #2F281E;
+  color: #2f281e;
   margin-bottom: 30px;
 }
 .first-screen__description {
@@ -148,8 +148,8 @@ body {
   width: 180px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: #FFFFFF;
-  background-color: #FF9900;
+  color: #ffffff;
+  background-color: #ff9900;
 }
 
 .features {
@@ -160,7 +160,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
-  color: #2F281E;
+  color: #2f281e;
   text-align: center;
   width: 539px;
   margin: 0 auto;
@@ -168,13 +168,13 @@ body {
 }
 .features__button {
   width: 180px;
-  background: #FF9900;
+  background: #ff9900;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .features__bg {
   position: absolute;
@@ -205,7 +205,7 @@ body {
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
-  color: #2F281E;
+  color: #2f281e;
   margin: 0 0 16px 0;
 }
 .tool__description {
@@ -217,7 +217,7 @@ body {
 
 .line {
   display: block;
-  background-color: #BCD0E5;
+  background-color: #bcd0e5;
   height: 1px;
   opacity: 50%;
   color: #544837;
@@ -250,7 +250,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  color: #2F281E;
+  color: #2f281e;
   margin: 0 0 30px 0;
 }
 .footer-list__item {
@@ -258,7 +258,7 @@ body {
   font-weight: 500;
 }
 .footer-list__item:hover {
-  color: #FF9900;
+  color: #ff9900;
 }
 .footer-form {
   max-width: 27%;
@@ -282,13 +282,16 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  color: #2F281E;
+  color: #2f281e;
   width: 70%;
 }
 .footer-form__input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 10px;
   width: 99%;
   height: 50px;
-  border: 1px solid #BCD0E5;
+  border: 1px solid #bcd0e5;
   border-radius: 4px;
   font-weight: 400;
   font-size: 16px;
@@ -298,19 +301,19 @@ body {
   outline: none;
 }
 .footer-form__input::-webkit-input-placeholder {
-  color: #BCD0E5;
+  color: #bcd0e5;
 }
 .footer-form__input::-moz-placeholder {
-  color: #BCD0E5;
+  color: #bcd0e5;
 }
 .footer-form__input:-ms-input-placeholder {
-  color: #BCD0E5;
+  color: #bcd0e5;
 }
 .footer-form__input::-ms-input-placeholder {
-  color: #BCD0E5;
+  color: #bcd0e5;
 }
 .footer-form__input::placeholder {
-  color: #BCD0E5;
+  color: #bcd0e5;
 }
 .footer-form__input:focus-visible {
   border-color: #5d7a99;
@@ -318,7 +321,7 @@ body {
 .footer-form__button {
   display: block;
   width: 180px;
-  background: #FF9900;
+  background: #ff9900;
   border-radius: 4px;
   border: none;
   font-family: "Poppins", sans-serif;
@@ -326,7 +329,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1701px) {
@@ -437,6 +440,7 @@ body {
             flex-direction: column;
   }
   .tool {
+    text-align: center;
     width: 100%;
   }
   .footer {

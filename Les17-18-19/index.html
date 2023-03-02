@@ -1,117 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/css/reset.css">
-    <link rel="stylesheet" href="styles/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/css/reset.css" />
+    <link rel="stylesheet" href="styles/css/style.css" />
     <script defer src="js/script.js"></script>
-    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
     <title>Productly</title>
-</head>
+  </head>
 
-<body>
+  <body>
 
     <header class="header" id="product">
-        <div class="container header__container">
-            <div class="logo-wrapper">
-                <img class="logo" src="assets/images/Logo.png" alt="Logo">
-            </div>
-            <button class="header__burger-button" id="burger-button">
-                <span class="header__burger-button-line"></span>
-                <span class="header__burger-button-line"></span>
-                <span class="header__burger-button-line"></span>
-            </button>
-            <nav class="navigation">
-                <ul class="navigation-list">
-                    <li><a class="navigation-list__item" href="#product">Product</a></li>
-                    <li><a class="navigation-list__item" href="#">Customers</a></li>
-                    <li><a class="navigation-list__item" href="#">Pricing</a></li>
-                    <li><a class="navigation-list__item" href="#">Resources</a></li>
-                </ul>
-            </nav>
-            <div class="header-buttons">
-                <button class="header-buttons__signin button" type="button">Sign in</button>
-                <button class="header-buttons__signup button" type="button">Sign up</button>
-            </div>
+      <div class="container header__container">
+        <div class="logo-wrapper">
+          <img class="logo" src="assets/images/Logo.png" alt="Logo" />
         </div>
+        <button class="header__burger-button" id="burger-button">
+          <span class="header__burger-button-line"></span>
+          <span class="header__burger-button-line"></span>
+          <span class="header__burger-button-line"></span>
+        </button>
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li>
+              <a class="navigation-list__item" href="#product">Product</a>
+            </li>
+            <li><a class="navigation-list__item" href="#">Customers</a></li>
+            <li><a class="navigation-list__item" href="#">Pricing</a></li>
+            <li><a class="navigation-list__item" href="#">Resources</a></li>
+          </ul>
+        </nav>
+        <div class="header-buttons">
+          <button class="header-buttons__signin button" type="button">
+            Sign in
+          </button>
+          <button class="header-buttons__signup button" type="button">
+            Sign up
+          </button>
+        </div>
+      </div>
     </header>
 
     <main class="main">
-        <section class="first-screen">
-            <div class="container">
-                <div class="first-screen__content-wrap">
-                    <h1 class="first-screen__title">The Design Thinking superpowers</h1>
-                    <p class="first-screen__description">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-                    <button class="first-screen__button button" type="button">Get started</button>
-                </div>
-                <div class="first-screen__content-wrap first-screen__img-wrap">
-                    <img class="first-screen__img" src="assets/images/first_screen_image.png" alt="first screen image">
-                </div>
-            </div>
-        </section>
 
+      <section class="first-screen">
+        <div class="container">
+          <div class="first-screen__content-wrap">
+            <h1 class="first-screen__title">The Design Thinking superpowers</h1>
+            <p class="first-screen__description">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <button class="first-screen__button button" type="button">
+              Get started
+            </button>
+          </div>
+          
+          <div class="first-screen__content-wrap first-screen__img-wrap">
+            <img
+              class="first-screen__img"
+              src="assets/images/first_screen_image.png"
+              alt="first screen image"
+            />
+          </div>
+        </div>
+      </section>
 
-        <section class="features">  
-            <h2 class="features__title">We design tools to unveil your superpowers</h2> 
-            <div class="container tools__container">
-                <div class="tool">
-                    <img class="tool__icon" src="assets/images/click_icon.png" alt="icon">
-                    <h3 class="tool__heading">First click tests</h3>
-                    <p class="tool__description">While most people enjoy casino gambling,</p>
-                </div>
-                <div class="tool">
-                    <img class="tool__icon" src="assets/images/design-surveys_icon.png" alt="icon">
-                    <h3 class="tool__heading">Design surveys</h3>
-                    <p class="tool__description">Sports betting, lottery and bingo playing for the fun,</p>
-                </div>
-                <div class="tool">
-                    <img class="tool__icon" src="assets/images/preference-tests_icon.png" alt="icon">
-                    <h3 class="tool__heading">Preference tests</h3>
-                    <p class="tool__description">The Myspace page defines the individual.</p>
-                </div>
-                <div class="tool">
-                    <img class="tool__icon" src="assets/images/five-second-tests_icon.png" alt="icon">
-                    <h3 class="tool__heading">Five second tests</h3>
-                    <p class="tool__description">Personal choices and the overall personality of the person.</p>
-                </div>
-            </div>
-            <img class="features__bg" src="assets/images/features_bg.png" alt="bg_img">
-            <button class="features__button button" type="button">Sign up Now</button>
-        </section>
+      <section class="features">
+        <h2 class="features__title">
+          We design tools to unveil your superpowers
+        </h2>
 
+        <div class="container tools__container">
+
+          <div class="tool">
+            <img
+              class="tool__icon"
+              src="assets/images/click_icon.png"
+              alt="icon"
+            />
+            <h3 class="tool__heading">First click tests</h3>
+            <p class="tool__description">
+              While most people enjoy casino gambling,
+            </p>
+          </div>
+
+          <div class="tool">
+            <img
+              class="tool__icon"
+              src="assets/images/design-surveys_icon.png"
+              alt="icon"
+            />
+            <h3 class="tool__heading">Design surveys</h3>
+            <p class="tool__description">
+              Sports betting, lottery and bingo playing for the fun,
+            </p>
+          </div>
+          
+          <div class="tool">
+            <img
+              class="tool__icon"
+              src="assets/images/preference-tests_icon.png"
+              alt="icon"
+            />
+            <h3 class="tool__heading">Preference tests</h3>
+            <p class="tool__description">
+              The Myspace page defines the individual.
+            </p>
+          </div>
+
+          <div class="tool">
+            <img
+              class="tool__icon"
+              src="assets/images/five-second-tests_icon.png"
+              alt="icon"
+            />
+            <h3 class="tool__heading">Five second tests</h3>
+            <p class="tool__description">
+              Personal choices and the overall personality of the person.
+            </p>
+          </div>
+        </div>
+        <img
+          class="features__bg"
+          src="assets/images/features_bg.png"
+          alt="bg_img"
+        />
+        <button class="features__button button" type="button">
+          Sign up Now
+        </button>
+      </section>
+      
     </main>
     <div class="line"></div>
     <footer class="footer">
-        <div class="container footer__container">
-            <img class="logo" src="assets/images/Logo.png" alt="logo">
-            <div class="footer-item">
-                <h4 class="footer-list__heading">Quick Links</h4>
-                <ul class="footer-list">
-                    <li><a class="footer-list__item">About Us</a></li>
-                    <li><a class="footer-list__item">Blog</a></li>
-                    <li><a class="footer-list__item">Contact</a></li>
-                    <li><a class="footer-list__item">FAQ</a></li>
-                </ul>
-            </div>
-            <div class="footer-item">
-                <h4 class="footer-list__heading">Legal Stuff</h4>
-                <ul class="footer-list">
-                    <li><a class="footer-list__item">Disclaimer</a></li>
-                    <li><a class="footer-list__item">Financing</a></li>
-                    <li><a class="footer-list__item"> Privacy Policy</a></li>
-                    <li><a class="footer-list__item">Terms of Service</a></li>
-                </ul>
-            </div>
-                <form class="footer-form">
-                    <label class="footer-form__heading" for="phone-num">
-                        Knowing you're always on the best energy deal. 
-                    </label>
-                    <input class="footer-form__input" type="number" id="phone-num" name="phone-num" placeholder="Enter your phone Number">
-                    <button class="footer-form__button button" type="submit">Sign up Now</button>
-                </form>
+      <div class="container footer__container">
+        <img class="logo" src="assets/images/Logo.png" alt="logo" />
+
+        <div class="footer-item">
+          <h4 class="footer-list__heading">Quick Links</h4>
+          <ul class="footer-list">
+            <li><a class="footer-list__item">About Us</a></li>
+            <li><a class="footer-list__item">Blog</a></li>
+            <li><a class="footer-list__item">Contact</a></li>
+            <li><a class="footer-list__item">FAQ</a></li>
+          </ul>
         </div>
+
+        <div class="footer-item">
+          <h4 class="footer-list__heading">Legal Stuff</h4>
+          <ul class="footer-list">
+            <li><a class="footer-list__item">Disclaimer</a></li>
+            <li><a class="footer-list__item">Financing</a></li>
+            <li><a class="footer-list__item"> Privacy Policy</a></li>
+            <li><a class="footer-list__item">Terms of Service</a></li>
+          </ul>
+        </div>
+        
+        <form class="footer-form">
+          <label class="footer-form__heading" for="phone-num">
+            Knowing you're always on the best energy deal.
+          </label>
+          <input
+            class="footer-form__input"
+            type="number"
+            id="phone-num"
+            name="phone-num"
+            placeholder="Enter your phone Number"
+          />
+          <button class="footer-form__button button" type="submit">
+            Sign up Now
+          </button>
+        </form>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
