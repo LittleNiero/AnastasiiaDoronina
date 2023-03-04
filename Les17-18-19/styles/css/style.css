@@ -427,10 +427,8 @@ body {
   .first-screen__content-wrap {
     width: 100%;
   }
-  .features__bg {
-    width: 120%;
-    -o-object-position: center;
-       object-position: center;
+  .features {
+    padding-bottom: 50px;
   }
   .tools__container {
     gap: 30px;
@@ -579,7 +577,7 @@ body {
     padding: 0;
   }
   .features {
-    padding: 0 10px;
+    padding-bottom: 40px;
   }
   .features__title {
     display: inline;
