@@ -60,11 +60,11 @@
           </div>
           
           <div class="first-screen__content-wrap first-screen__img-wrap">
-            <img
-              class="first-screen__img"
-              src="assets/images/first_screen_image.png"
-              alt="first screen image"
-            />
+            <picture>
+              <source srcset="assets/images/first_screen_image--mobile.png" media="(max-width: 480px)">
+              <source srcset="assets/images/first_screen_image--tablet.png" media="(max-width: 1200px)">
+              <img  class="first-screen__img" src="assets/images/first_screen_image--desktop.png" alt="first_screen_image">
+            </picture>
           </div>
         </div>
       </section>
@@ -124,11 +124,14 @@
             </p>
           </div>
         </div>
-        <img
-          class="features__bg"
-          src="assets/images/features_bg.png"
-          alt="bg_img"
-        />
+        <picture>
+          <source srcset="assets/images/features_bg--mobile.png" media="(max-width: 768px)">
+          <img
+            class="features__bg"
+            src="assets/images/features_bg.png"
+            alt="bg_img"
+          />
+        </picture>
         <button class="features__button button" type="button">
           Sign up Now
         </button>

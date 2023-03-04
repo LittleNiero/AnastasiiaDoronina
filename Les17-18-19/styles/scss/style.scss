@@ -143,7 +143,9 @@ body {
 
 .features {
   text-align: center;
-  margin: 0 0 100px 0;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  position: relative;
   &__title {
     font-weight: 700;
     font-size: 36px;
@@ -169,7 +171,7 @@ body {
     z-index: -1;
     width: 100%;
     display: block;
-    bottom: -30px;
+    bottom: 0;
   }
 }
 .tools__container {
@@ -295,12 +297,6 @@ body {
   }
 }
 
-@media screen and (max-width: 1501px) {
-  .features__bg {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 1201px) {
   .container {
     max-width: 80%;
@@ -391,13 +387,16 @@ body {
     .container {
       max-width: 70%;
       text-align: center;
+      gap: 40px;
     }
     &__content-wrap {
       width: 100%;
     }
-    &__img-wrap {
-      display: none;
-    }
+  }
+
+  .features__bg {
+    width: 120%;
+    object-position: center;
   }
 
   .tools__container {

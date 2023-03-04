@@ -154,7 +154,9 @@ body {
 
 .features {
   text-align: center;
-  margin: 0 0 100px 0;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  position: relative;
 }
 .features__title {
   font-weight: 700;
@@ -181,7 +183,7 @@ body {
   z-index: -1;
   width: 100%;
   display: block;
-  bottom: -30px;
+  bottom: 0;
 }
 
 .tools__container {
@@ -337,11 +339,6 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 1501px) {
-  .features__bg {
-    display: none;
-  }
-}
 @media screen and (max-width: 1201px) {
   .container {
     max-width: 80%;
@@ -425,12 +422,15 @@ body {
   .first-screen .container {
     max-width: 70%;
     text-align: center;
+    gap: 40px;
   }
   .first-screen__content-wrap {
     width: 100%;
   }
-  .first-screen__img-wrap {
-    display: none;
+  .features__bg {
+    width: 120%;
+    -o-object-position: center;
+       object-position: center;
   }
   .tools__container {
     gap: 30px;
