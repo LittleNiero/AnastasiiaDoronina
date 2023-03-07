@@ -1,0 +1,206 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+.wrapper {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  color: #000000;
+}
+.logo {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 8px;
+  padding: 18px 0;
+  margin: 0;
+}
+.title {
+  font-family: "Red Hat Display", sans-serif;
+}
+.first-screen {
+  &__title {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+  &__image {
+    margin-bottom: 70px;
+    width: 100%;
+  }
+}
+
+.section {
+  width: 100%;
+  &__title {
+    font-size: 26px;
+    line-height: 43px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+  }
+  &__image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  &__description {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #565656;
+    margin-bottom: 70px;
+  }
+}
+
+.footer {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+  &-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    &__title {
+      font-size: 32px;
+      line-height: 42px;
+      letter-spacing: 2px;
+      font-weight: 400;
+      margin: 0 0 5px 0;
+    }
+    &__contact {
+      cursor: pointer;
+      text-decoration: none;
+      color: #000000;
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: 2px;
+      font-weight: 400;
+    }
+  }
+  &-socials {
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+
+    &__block {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      background: none;
+      border: 1px solid #565656;
+      &:hover {
+        background-color: #565656;
+      }
+    }
+    &__icon {
+      fill: #565656;
+      height: 25px;
+      width: 25px;
+    }
+    &__block:hover &__icon {
+      fill: #ffffff;
+    }
+  }
+  &__ending {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    margin-bottom: 40px;
+  }
+  .first-screen {
+    &__title {
+      font-size: 33px;
+      margin-bottom: 50px;
+    }
+    &__image {
+      margin-bottom: 90px;
+    }
+  }
+  .section {
+    &__title {
+      font-size: 28px;
+      line-height: 46px;
+      margin-bottom: 50px;
+    }
+    &__description {
+      font-size: 19px;
+    }
+  }
+  .footer {
+    &__wrapper {
+      gap: 45px;
+    }
+    &-contacts {
+      &__title {
+        font-size: 48px;
+        line-height: 64px;
+      }
+      &__contact {
+        font-size: 16px;
+      }
+    }
+    &__ending {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    width: 85%;
+  }
+  .header {
+    margin: 38px 0;
+  }
+  .first-screen__title {
+    margin: 0 0 70px 0;
+    font-size: 70px;
+    line-height: 64px;
+  }
+  .section {
+    &__description {
+      margin-bottom: 90px;
+    }
+  }
+  .footer {
+    padding: 70px 0 20px 0;
+    &__wrapper {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    &-contacts {
+      text-align: left;
+      &__title {
+        margin: 0 0 15px 0;
+      }
+    }
+    &-socials {
+      align-self: center;
+    }
+    &__ending {
+      width: 100%;
+    }
+  }
+}

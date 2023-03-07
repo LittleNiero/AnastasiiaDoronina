@@ -49,6 +49,7 @@ h1 {
     font-size: 20px;
     text-transform: uppercase;
     color: #3C3C3C;
+    transition: 0.2s;
 }
 .navigation__list-item a:hover {
     color: #18B5DC;
@@ -69,8 +70,10 @@ button {
     line-height: 22px;
     color: #3C3C3C;
     background-color: #FFFFFF;
+    transition: 0.3s;
 }
 .callback-button:hover {
+    transform: scale(1.1);
     border: 0;
     color: #FFFFFF;
     background-color: #18B5DC;
@@ -120,23 +123,39 @@ color: #3C3C3C;
 }
 .section-team__wrapper {
     margin-bottom: 20px;
-    position: relative;
-}
-.section-team__background  {
-    display: none;
-    position: absolute;
+    background-color: transparent;
     width: 270px;
     height: 270px;
+    perspective: 1000px;
+}
+.section-team__sub-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.section-team__wrapper:hover .section-team__sub-wrapper {
+    transform: rotateY(180deg);
+}
+.section-team__img, .section-team__background  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.section-team__img {
+    display: block;
+}
+.section-team__background  {
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    top: 0;
     background-color: #18B5DC;
-}
-
-
-.section-team__wrapper:hover .section-team__background {
-    display: flex;
+    transform: rotateY(180deg);
 }
 
 .socials-list {
@@ -145,12 +164,16 @@ color: #3C3C3C;
 }
 .socials-list__item {
     cursor: pointer;
+    transition: 0.2s;
+}
+.socials-list__item:hover {
+    transform: scale(1.1);
 }
 .socials-list__item .social--hover { 
     display: none;
 }
 .socials-list__item:hover .social--hover { 
-    display: inline;
+    display: inline;    
 }
 .socials-list__item:hover .social { 
     display: none;
