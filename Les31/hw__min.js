@@ -1,21 +1,21 @@
-"use strict"
+// "use strict"
 
 
-const USER_AGE = +prompt("Вкажіть ваш вік","0");
+// const USER_AGE = +prompt("Вкажіть ваш вік","0");
 
-if (typeof(USER_AGE) === "number" && USER_AGE > 0) {
-    if (USER_AGE > 0 && USER_AGE <= 11) {
-        alert("Ви дитина");
-    } else if (USER_AGE >= 12 && USER_AGE <= 17) {
-        alert("Ви підліток");
-    } else if (USER_AGE >= 18 && USER_AGE <= 59) {
-        alert("Ви дорослий");
-    } else {
-        alert("Ви пенсіонер"); 
-    };
-} else {
-    alert("Такого віку немає(");
-};
+// if (typeof(USER_AGE) === "number" && USER_AGE > 0) {
+//     if (USER_AGE > 0 && USER_AGE <= 11) {
+//         alert("Ви дитина");
+//     } else if (USER_AGE >= 12 && USER_AGE <= 17) {
+//         alert("Ви підліток");
+//     } else if (USER_AGE >= 18 && USER_AGE <= 59) {
+//         alert("Ви дорослий");
+//     } else {
+//         alert("Ви пенсіонер"); 
+//     };
+// } else {
+//     alert("Такого віку немає(");
+// };
 
 
 /* 
@@ -111,3 +111,4 @@ for (let i = 1; i * 2 <= USER_NUMBER; i++) {
 
 alert(message);
 */
+
