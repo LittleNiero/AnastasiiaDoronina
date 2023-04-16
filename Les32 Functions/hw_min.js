@@ -6,9 +6,7 @@
 // const func2 = function() {    
 // }; 
 
-// let func3 = (arg1, arg2) => expression;
-
-// let func4 = () => {
+// let func3 = () => {
 // };
 
 
@@ -19,14 +17,14 @@
 
 
 // function compare(a, b) {
-//     (a < b) ? console.log(-1) : 
-//     (a > b) ? console.log(1) :
-//     console.log(0);
+//     return (a < b) ? -1 : 
+//     (a > b) ? 1 :
+//     0;
 // }
-// compare(8,6);
+// console.log(compare(8,6));
 
 
-// let factorial = function(num) {
+// const factorial = function(num) {
 //     for (let i = num - 1; i > 0; i--) {
 //         num *= i;
 //     };
@@ -35,13 +33,13 @@
 // console.log(factorial(6));
 
 
-// let number = function(a,b,c) {
+// const createNumber = function(a,b,c) {
 //     return +("" + a + b + c);
 // };
-// console.log (number(7,2,8));
+// console.log (createNumber(7,2,8));
 
 
-// let square = function(width, height) {
+// const square = function(width, height) {
 //     if (!width || !height) {
 //         return (width ?? height) **2;
 //     };
