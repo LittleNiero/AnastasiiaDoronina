@@ -5,9 +5,9 @@ const car = {
     model: "Honda Civic 1.5T MT Si",
     year: "2017",
     tank: 46,
-    "average speed": 120,
-    "consumption per 100km": 4.9,
-    driver: [],
+    average_speed: 120,
+    average_consumption: 4.9,
+    drivers: [],
 
     info: function() {
         for (let value in car) {
@@ -18,25 +18,22 @@ const car = {
         };
     },
 
-    "add driver": function(driverName) {
-        driverName = prompt("driver name");
-        car.driver.push(driverName);
+    add_driver: function(driverName) {
+        car.drivers.push(driverName);
     },
 
-    "check driver": function(personName) {
-        personName = prompt("your name");
-        if (car.driver.includes(personName)) {
+    check_driver: function(personName) {
+        if (car.drivers.includes(personName)) {
             console.log("your name is on the list");
         } else {
         console.log("your name isn't on the list");
         }
     },
 
-    "calc path": function(distance) {
-        distance = prompt("Path length in km");
-        let consumptionPerKm = car["consumption per 100km"] / 100;
+    calc_path: function(distance) {
+        let consumptionPerKm = this.average_consumption / 100;
         let spentPetrol = consumptionPerKm * distance;
-        let roadTime = distance / this["average speed"];
+        let roadTime = distance / this.average_speed;
 
         if (roadTime >= 4) {
             let addTime = roadTime / 4;
@@ -48,6 +45,6 @@ const car = {
 };
 
 car.info();
-// car["add driver"]();
-// car["check driver"]();
-// car["calc path"]();
+// car.add_driver(prompt("driver name"));
+// car.check_driver(prompt("driver name"));
+// car.calc_path(prompt("Path length in km"));
