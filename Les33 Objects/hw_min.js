@@ -32,7 +32,7 @@ const car = {
 
     calc_path: function(distance) {
         let consumptionPerKm = this.average_consumption / 100;
-        let spentPetrol = consumptionPerKm * distance;
+        let spentFuel = consumptionPerKm * distance;
         let roadTime = distance / this.average_speed;
 
         if (roadTime >= 4) {
@@ -40,7 +40,7 @@ const car = {
             roadTime += addTime;
         };
         
-        console.log (`Petrol consumption: ${spentPetrol.toFixed(2)} liters, Road time: ${roadTime.toFixed(2)} hours`);
+        console.log (`Fuel consumption: ${spentFuel.toFixed(2)} liters, Road time: ${roadTime.toFixed(2)} hours`);
     },
 };
 
