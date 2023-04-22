@@ -77,7 +77,7 @@ const playList = [
 
             let li = document.createElement('li');
 
-                li.innerText += track.author + ": " + track.song;
+                li.innerText = track.author + ": " + track.song;
 
             ol.appendChild(li);
         }
