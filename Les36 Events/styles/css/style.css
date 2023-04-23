@@ -1,0 +1,39 @@
+body {
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.table tbody {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+.table tbody tr {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+}
+.table tbody tr td {
+  width: 50%;
+  text-align: center;
+}
+
+.column-names {
+  cursor: pointer;
+}
+
+.wrapper {
+  border: 1px black solid;
+  overflow: hidden;
+}

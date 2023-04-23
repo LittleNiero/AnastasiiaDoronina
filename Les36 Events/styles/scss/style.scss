@@ -1,0 +1,29 @@
+body {
+    padding: 40px;
+    font-family: sans-serif;
+};
+
+.table tbody {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    tr {
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        td {
+            width: 50%;
+            text-align: center;
+        }
+    }
+}
+.column-names {
+    cursor: pointer;
+}
+
+.wrapper {
+    border: 1px black solid;
+    overflow: hidden;
+}
